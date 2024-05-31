@@ -1,0 +1,26 @@
+name: GodParticle
+main: Renz\Main
+version: 1.0.0
+api: 5.0.0
+author: Renz
+commands:
+  particles:
+    description: §bOpen The God Particle
+    usage: /particles
+    permission: godparticles.command
+permissions:
+  godparticles.command:
+    default: true
+    description: Allows the player to use the particles command
+  rainbow.god:
+    default: op
+    description: Allows the player to use the Rainbow Particle
+  redwing.god:
+    default: op
+    description: Allows the player to use the Red Wing Particle
+  souloffire.god:
+    default: op
+    description: Allows the player to use the Soul of Fire Particle
+  demon.god:
+    default: op
+    description: Allows the player to use the Demon Particle
